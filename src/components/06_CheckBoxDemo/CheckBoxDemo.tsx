@@ -5,7 +5,7 @@ const CheckBoxDemo = () => {
     const [acceptTnC, setAcceptTnC] = useState(false);
 
     const handleChange = (event:React.ChangeEvent<HTMLInputElement>) => {
-        setAcceptTnC(event.target.value);
+        setAcceptTnC(event.target.value); 
     }
 
     return (
